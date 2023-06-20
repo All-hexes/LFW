@@ -424,6 +424,7 @@ body{
     -webkit-justify-content:center;
     -ms-flex-pack:center;
     justify-content:center;
+    color: #fff;
     cursor:pointer
 }
 .header--nav-toggle span,.header--nav-toggle::before,.header--nav-toggle::after{
@@ -440,6 +441,9 @@ body{
 .header--nav-toggle::after{
     top:5px;
     width:23px
+}
+.header--nav-toggle{
+    color:white;
 }
 .header--cta{
     position:absolute;
@@ -1115,7 +1119,7 @@ body{
     left:0;
     width:100%;
     height:100%;
-    background-image:url("../img/contact-visual-me.png");
+    background-image:url("../img/contact-visual.png");
     background-position:center;
     background-size:cover;
     background-repeat:no-repeat
@@ -1566,3 +1570,41 @@ body{
     transition-delay:.16s
 }
  
+
+/* legal */ 
+
+.legal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 7% 15% 15% 15%;
+}
+
+@media  (max-width:767px) {
+    .legal {
+        padding: 5% 7% 7% 7%;
+    } 
+}
+
+.legal--paragraph {
+
+    padding: 55px;
+}
+
+.legal--btn {
+
+    width:130px;
+    text-decoration: none;
+    padding: 10px;
+    color: #fff;
+    background-color:#6506ff;
+    text-transform:uppercase;
+}
+
+.legal-space-btn {
+    width: 100px;
+}
+
+
+/* btn mentions legales */
