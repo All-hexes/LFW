@@ -1607,4 +1607,11 @@ body{
 }
 
 
-/* btn mentions legales */
+/*  */
+
+@media  (max-width:767px) {
+    .tab-mode {
+        visibility: hidden;
+    }
+    
+}
